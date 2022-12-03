@@ -1,18 +1,20 @@
 import styled from 'styled-components';
 import Logo from '../../assets/images/logo.svg';
 const Nav = styled.nav`
-  /* max-width: 1440px; */
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 42rem;
   img {
     width: 2.5rem;
     height: 2rem;
   }
   margin-top: 5rem;
+
   .nav-links li {
     display: inline-block;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
+
     a {
       color: var(--DarkGrayishBlue);
     }

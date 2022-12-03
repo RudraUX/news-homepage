@@ -5,13 +5,13 @@ const HeroSection = styled.div`
   margin: 3rem 0;
   img {
     height: 22rem;
-    width: 55rem;
+    width: 780px;
   }
   .hero-section-1 {
+    margin-right: -9rem;
     .hero-section-fact {
       display: flex;
-      width: 55rem;
-      gap: 7rem;
+      width: 960px;
       margin-top: 2rem;
       text-align: left;
     }
@@ -19,6 +19,8 @@ const HeroSection = styled.div`
       font-size: 4.4rem;
       color: var(--VeryDarkBlue);
       line-height: 1;
+      width: 24rem;
+      margin-right: 3.8rem;
     }
     p {
       font-size: 1rem;
@@ -43,18 +45,18 @@ const HeroSection = styled.div`
     }
   }
   .hero-section-2 {
-    margin-left: 2rem;
-    padding: 2rem 2rem;
+    /* margin-left: 0.5rem; */
+    padding: 2rem 1.7rem;
     background-color: var(--VeryDarkBlue);
-    width: 29%;
-    height: 40rem;
+    width: 310px;
+    height: 37.5rem;
     h1 {
       color: var(--SoftOrange);
       margin-bottom: 2rem;
     }
     .hero-section-info h3 {
       color: var(--OffWhite);
-      margin-bottom: 1rem;
+      margin-bottom: 0.8rem;
       &:hover {
         color: var(--SoftOrange);
       }
@@ -62,7 +64,7 @@ const HeroSection = styled.div`
 
     .hero-section-info:not(:last-child) {
       margin-bottom: 3rem;
-      padding-bottom: 4rem;
+      padding-bottom: 3rem;
       border-bottom: 1px solid var(--GrayishBlue);
     }
 
