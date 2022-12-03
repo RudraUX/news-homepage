@@ -3,8 +3,7 @@ import Logo from '../../assets/images/logo.svg';
 const Nav = styled.nav`
   list-style-type: none;
   display: flex;
-  /* justify-content: space-between; */
-  gap: 42rem;
+  justify-content: space-between;
   img {
     width: 2.5rem;
     height: 2rem;

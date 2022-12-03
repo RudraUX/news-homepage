@@ -1,34 +1,33 @@
 import styled from 'styled-components';
 import HeroImage from '../../assets/images/image-web-3-desktop.jpg';
 const HeroSection = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
   margin: 3rem 0;
   img {
     height: 22rem;
-    width: 780px;
+    width: 46rem;
   }
   .hero-section-1 {
-    margin-right: -9rem;
     .hero-section-fact {
-      display: flex;
-      width: 960px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
       margin-top: 2rem;
-      text-align: left;
     }
     h1 {
-      font-size: 4.4rem;
+      font-size: 4rem;
       color: var(--VeryDarkBlue);
       line-height: 1;
-      width: 24rem;
-      margin-right: 3.8rem;
     }
     p {
       font-size: 1rem;
       color: var(--DarkGrayishBlue);
       line-height: 1.6;
-      width: 21rem;
       max-width: 100%;
       margin-bottom: 4rem;
+      width: 21rem;
     }
 
     a {
@@ -45,10 +44,8 @@ const HeroSection = styled.div`
     }
   }
   .hero-section-2 {
-    /* margin-left: 0.5rem; */
     padding: 2rem 1.7rem;
     background-color: var(--VeryDarkBlue);
-    width: 310px;
     height: 37.5rem;
     h1 {
       color: var(--SoftOrange);

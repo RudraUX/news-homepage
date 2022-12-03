@@ -9,11 +9,12 @@ interface InfoProp {
 
 const InfoElm = styled.div`
   display: flex;
-
+  width: 22rem;
+  margin-right: 1.5rem;
   img {
-    height: 7.2rem;
-    width: 6rem;
-    margin-right: 1.3rem;
+    height: 8rem;
+    width: 7rem;
+    margin-right: 1.5rem;
   }
   span {
     display: block;
@@ -35,8 +36,7 @@ const InfoElm = styled.div`
   p {
     color: var(--DarkGrayishBlue);
     font-size: 1rem;
-    line-height: 1.3;
-    margin-right: 2rem;
+    line-height: 1.5;
   }
 `;
 

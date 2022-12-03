@@ -6,12 +6,10 @@ import Navbar from './components/nav/Navbar';
 import GlobalStyle from './globalStyle/globalStyle';
 
 const Wrapper = styled.div`
-  /* overflow: hidden; */
-  height: 100vh;
-  width: 1440px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding-right: 4rem;
-  padding-left: 10rem;
+  /* overflow: auto;
+  padding: 0 40px; */
 `;
 
 function App() {

@@ -5,32 +5,37 @@ import InfoSection from './InfoSection';
 import styled from 'styled-components';
 
 const InfoMain = styled.div`
-  display: flex;
-  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5rem;
 `;
 
 function Info() {
   return (
-    <InfoMain>
-      <InfoSection
-        infoImagUrl={RetroPcIMG}
-        infoId='01'
-        infoHeading='Reviving Retro PCs'
-        infoParagraph='What happens when old PCs are given modern upgrades?'
-      />
-      <InfoSection
-        infoImagUrl={TopLangIMG}
-        infoId='02'
-        infoHeading='Top 10 Laptops of 2022'
-        infoParagraph='Our best picks for various needs and budgets.'
-      />
-      <InfoSection
-        infoImagUrl={GamingImg}
-        infoId='03'
-        infoHeading='The Growth of Gaming'
-        infoParagraph='How the pandemic has sparked fresh opportunities.'
-      />
-    </InfoMain>
+    <>
+      <InfoMain>
+        <InfoSection
+          infoImagUrl={RetroPcIMG}
+          infoId='01'
+          infoHeading='Reviving Retro PCs'
+          infoParagraph='What happens when old PCs are given modern upgrades?'
+        />
+
+        <InfoSection
+          infoImagUrl={TopLangIMG}
+          infoId='02'
+          infoHeading='Top 10 Laptops of 2022'
+          infoParagraph='Our best picks for various needs and budgets.'
+        />
+
+        <InfoSection
+          infoImagUrl={GamingImg}
+          infoId='03'
+          infoHeading='The Growth of Gaming'
+          infoParagraph='How the pandemic has sparked fresh opportunities.'
+        />
+      </InfoMain>
+    </>
   );
 }
 
